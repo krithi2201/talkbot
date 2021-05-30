@@ -1,6 +1,6 @@
 # Install required packages
 
-Speech recognition, python audio and speech synthesizer package.
+Speech recognition, python audio and speech synthesizer packages.
 
 ```
 $ pip install pydub
