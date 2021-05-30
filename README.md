@@ -9,10 +9,14 @@ Begin by exploring the sorce code
 
 # Install required modules
 
+```
 $ pip install pydub
 $ pip install PyAudio
 $ pip install SpeechRecognition
+```
 
 # Run the python file and give valid audio input
 
+```
 $ python3 talkbot.py
+```
