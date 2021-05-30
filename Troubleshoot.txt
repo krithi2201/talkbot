@@ -1,0 +1,43 @@
+HELP NOTES TO DEVELOP CHATBOT AND TALKBOT
+
+Installation of chatterbot package
+• If installing in command prompt using pip
+pip install chatterbot
+• The chatterbot 0.8.6 is a stable version till date, if you wish to install it instead
+pip install chatterbot==0.8.6
+• If you’re installing in environments like Jupyter Notebook or Spyder directly,
+then use !pip instead of pip
+!pip install chatterbot
+!pip install chatterbot==0.8.6
+
+Solutions for some common troubles
+NO MODULE
+1. Ensure stable internet connection while installing
+2. Ensure successful installation of sub-packages (that are installed automatically
+with other packages) like pyYAML
+3. If installation of pyYAML has failed, use --user, execute below lines one after
+the other.
+a. pip install --user --ignore-installed pyYAML
+b. pip install --user chatterbot==0.8.6
+4. Clock attribute error has been reported several times during installation. It is
+interpreted to be a Python version specific error, not sure though. Upgrade or
+degrade to other Python 3.x.y versions if necessary.
+5. Do not forget to restart kernel after installing a new package (in environments
+like Jupyter Notebook, Spyder etc.,)
+6. Ensure that you have not named any of your programs similar to that of any
+library installed. If there are similar names, there will be file conflicts resulting
+in this error or an ‘IDLE sub process connection failed’ error.
+EOL ERROR
+7. Check for punctuation errors in program. In windows, file location addresses
+should be represented with / instead of backlash (\). e.g. Folder1/Folder2/File
+PYAUDIO
+8. If you have to use PyAudio package but facing installation problems, installing
+using the wheel file may be helpful. You may download wheel file at:
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+Once downloaded, change the current working directory to the location where
+the wheel file is available and then install as given below:
+pip install COMPLETE_NAME_OF_THE_WHEEL_FILE
+(or)
+If your system supports, these commands may be helpful instead
+pip install pipwin
+pipwin install PyAudio
