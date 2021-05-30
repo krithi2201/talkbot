@@ -1,0 +1,5 @@
+https://realpython.com/python-speech-recognition/
+https://github.com/
+Oliver Theobald, “Machine Learning for Absolute Beginners”, 2nd Edition,2017.
+T.M.Mitchell, “Machine Learning”, Indian Edition, McGraw Hill, 1997.
+Ethem Alpaydin, “Introduction to Machine Learning”, Third Edition.
