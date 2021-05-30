@@ -15,8 +15,14 @@ $ pip install PyAudio
 $ pip install SpeechRecognition
 ```
 
-# Run the python file and give valid audio input
+# For talkbot run the python file and give valid audio input
 
 ```
 $ python3 talkbot.py
+```
+
+# Python code to perform speech recognition on sound that is directly fed from Microphone
+
+```
+$ python3 speechrecog.py
 ```
