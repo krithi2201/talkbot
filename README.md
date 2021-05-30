@@ -15,7 +15,7 @@ $ pip install PyAudio
 $ pip install SpeechRecognition
 ```
 
-# For talkbot run the python file and give valid audio input
+# Run the python file and give valid audio input
 
 ```
 $ python3 talkbot.py
